@@ -1,0 +1,98 @@
+<start> may i borrow this book ? <end>
+b'<start> \xc2\xbf puedo tomar prestado este libro ? <end>'
+<start> if you want to sound like a native speaker , you must be willing to practice saying the same sentence over and over in the same way that banjo players practice the same phrase over and over until they can play it correctly and at the desired tempo . <end>
+<start> si quieres sonar como un hablante nativo , debes estar dispuesto a practicar diciendo la misma frase una y otra vez de la misma manera en que un musico de banjo practica el mismo fraseo una y otra vez hasta que lo puedan tocar correctamente y en el tiempo esperado . <end>
+24000 24000 6000 6000
+Input Language; index to word mapping
+1 ----> <start>
+16 ----> esta
+514 ----> sobre
+9 ----> el
+2060 ----> sofa
+3 ----> .
+2 ----> <end>
+
+Target Language; index to word mapping
+1 ----> <start>
+10 ----> it
+11 ----> s
+44 ----> on
+13 ----> the
+1818 ----> sofa
+3 ----> .
+2 ----> <end>
+Encoder output shape: (batch size, sequence length, units) (64, 16, 1024)
+Encoder Hidden state shape: (batch size, units) (64, 1024)
+Attention result shape: (batch size, units) (64, 1024)
+Attention weights shape: (batch_size, sequence_length, 1) (64, 16, 1)
+Decoder output shape: (batch_size, vocab size) (64, 4935)
+Epoch 1 Batch 0 Loss 4.7231
+Epoch 1 Batch 100 Loss 2.2146
+Epoch 1 Batch 200 Loss 1.9455
+Epoch 1 Batch 300 Loss 1.6761
+Epoch 1 Loss 2.0387
+Time taken for 1 epoch 705.278165102005 sec
+
+Epoch 2 Batch 0 Loss 1.5423
+Epoch 2 Batch 100 Loss 1.4166
+Epoch 2 Batch 200 Loss 1.3667
+Epoch 2 Batch 300 Loss 1.2687
+Epoch 2 Loss 1.3744
+Time taken for 1 epoch 698.2837545871735 sec
+
+Epoch 3 Batch 0 Loss 1.0386
+Epoch 3 Batch 100 Loss 0.8906
+Epoch 3 Batch 200 Loss 1.0121
+Epoch 3 Batch 300 Loss 0.9398
+Epoch 3 Loss 0.9390
+Time taken for 1 epoch 701.2253530025482 sec
+
+Epoch 4 Batch 0 Loss 0.5730
+Epoch 4 Batch 100 Loss 0.6295
+Epoch 4 Batch 200 Loss 0.7008
+Epoch 4 Batch 300 Loss 0.5939
+Epoch 4 Loss 0.6287
+Time taken for 1 epoch 695.4966146945953 sec
+
+Epoch 5 Batch 0 Loss 0.4108
+Epoch 5 Batch 100 Loss 0.4101
+Epoch 5 Batch 200 Loss 0.4016
+Epoch 5 Batch 300 Loss 0.3082
+Epoch 5 Loss 0.4236
+Time taken for 1 epoch 723.1039571762085 sec
+
+Epoch 6 Batch 0 Loss 0.2378
+Epoch 6 Batch 100 Loss 0.2612
+Epoch 6 Batch 200 Loss 0.2571
+Epoch 6 Batch 300 Loss 0.2467
+Epoch 6 Loss 0.2926
+Time taken for 1 epoch 748.9044449329376 sec
+
+Epoch 7 Batch 0 Loss 0.2220
+Epoch 7 Batch 100 Loss 0.1877
+Epoch 7 Batch 200 Loss 0.2367
+Epoch 7 Batch 300 Loss 0.2241
+Epoch 7 Loss 0.2083
+Time taken for 1 epoch 705.5969679355621 sec
+
+Epoch 8 Batch 0 Loss 0.1466
+Epoch 8 Batch 100 Loss 0.1508
+Epoch 8 Batch 200 Loss 0.1293
+Epoch 8 Batch 300 Loss 0.1842
+Epoch 8 Loss 0.1535
+Time taken for 1 epoch 692.9991617202759 sec
+
+Epoch 9 Batch 0 Loss 0.1431
+Epoch 9 Batch 100 Loss 0.1241
+Epoch 9 Batch 200 Loss 0.1131
+Epoch 9 Batch 300 Loss 0.1418
+Epoch 9 Loss 0.1197
+Time taken for 1 epoch 689.0411977767944 sec
+
+Epoch 10 Batch 0 Loss 0.0966
+Epoch 10 Batch 100 Loss 0.0805
+Epoch 10 Batch 200 Loss 0.1281
+Epoch 10 Batch 300 Loss 0.0995
+Epoch 10 Loss 0.0975
+Time taken for 1 epoch 685.3650641441345 sec
+
